@@ -1,14 +1,14 @@
 public class FizzBuzz {
     public static String fizzBuzz(int number){
-        boolean devisionByThree = number % 3 == 0;
-        boolean devisionByFive = number % 5 == 0;
-        if(devisionByThree && devisionByFive)
+        boolean idDevisionToThree = number % 3 == 0;
+        boolean isDevisionToFive = number % 5 == 0;
+        if(idDevisionToThree && isDevisionToFive)
             return "FizzBuzz";
 
-        if(devisionByThree)
+        if(idDevisionToThree)
             return "Fizz";
 
-        if(devisionByFive)
+        if(isDevisionToFive)
             return "Buzz";
 
         return number + "";
